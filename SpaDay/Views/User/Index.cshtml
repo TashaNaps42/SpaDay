@@ -1,0 +1,7 @@
+﻿@if(ViewBag.ThisUser.Username != null){
+    <h1>Welcome, @ViewBag.ThisUser.Username!</h1>
+} else {
+    <h1>Welcome!</h1>
+}
+
+<a asp-controller="Spa" asp-action="Index">Spa Menu</a>
